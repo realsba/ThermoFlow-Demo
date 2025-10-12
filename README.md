@@ -107,6 +107,39 @@ TCP/TLS Session
 +-------------+
 ```
 
+## SIL (Software-in-the-Loop) Framework
+
+The SIL framework mirrors **ThermoFlow firmware** on Linux, enabling full asynchronous,
+strand-serialized execution for testing and development without hardware. It allows
+deterministic verification of IO, control, and networking logic.
+
+### Components
+
+- **Fixtures** — setup and manage asynchronous contexts and TCP clients for tests.
+- **Mocks** — replacement of hardware interfaces and system dependencies:
+    - **GPIO & drivers** — simulate digital outputs and inputs
+    - **DS18B20 sensors & 1-Wire bus** — emulate temperature readings and bus scanning
+    - **OTA & partition APIs** — simulate firmware updates
+    - **NVS** — emulate persistent storage
+    - **mbedTLS** — fake cryptographic primitives (e.g., SHA256)
+- **Tests** — verify firmware modules:
+    - Hardware: temperature sensors and managers
+    - Networking: sessions, session manager, TCP listener
+    - Services: OTA updater, settings manager
+    - Utilities: serialization, notifier, async helpers
+- **Test hooks / helpers** — enable inspection and controlled manipulation of module state during tests.
+
+### Purpose
+
+- Full verification of firmware logic without ESP32 hardware
+- Deterministic async execution for reproducible testing
+- Isolation of IO, control, and safety modules via mocks
+- Development of new features or debugging directly on Linux
+
+### Coverage Screenshot
+
+<img src="docs/sil-screens/01-sil_coverage.png" width="50%" alt="SIL Coverage Result" />
+
 ## UI Walkthrough
 
 ThermoFlow Flutter client provides a clean, asynchronous interface for discovering,  
