@@ -115,6 +115,7 @@ pairing, and controlling devices over the local network. Below — a typical fir
 ### 1. Main Screen
 
 <img src="docs/UI-screens/01-main_no_device.jpg" width="10%" alt="Main — no device" />  
+
 *Main screen on first launch — no devices yet. Tap **+** to start discovery via mDNS.  
 Each device actively broadcasts its presence (`MdnsService`) with hostname and service,  
 so the app discovers devices reliably and displays them instantly.*
@@ -132,6 +133,7 @@ Discovered devices appear with their name and IP address, ready for instant pair
 ### 3. Pairing
 
 <img src="docs/UI-screens/04-pairing_connected.jpg" width="10%" alt="Pairing — connected" />
+
 *Tap a device to pair instantly. After pairing, the app returns to the main screen —  
 the newly paired device appears in the list and connects automatically.  
 The device list is stored persistently on the client (smartphone or desktop),  
@@ -140,6 +142,7 @@ so paired devices remain available after app restart.*
 ### 5. Device Details
 
 <img src="docs/UI-screens/05-device_details.jpg" width="10%" alt="Device — properties" />  
+
 *After tapping a device from the list, the app navigates to its **Device Details** screen.  
 The header shows the device name and connection status. A toggle allows automatic reconnection  
 if the session is lost.*
@@ -155,11 +158,13 @@ A button leads to the **Device Settings** screen.
 #### Device Control — Example Changes
 
 <img src="docs/UI-screens/05a-device_control.jpg" width="10%" alt="Device Control — heater & valves" />
+
 *Change heater power and update valve states. Shows live sensor statuses, including offline detection.*
 
 #### Auto-reconnect Attempt
 
 <img src="docs/UI-screens/05b-auto_reconnect_try.jpg" width="10%" alt="Auto-reconnect — trying" />
+
 *Client detects a lost session and attempts automatic reconnection.*
 
 #### Auto-reconnect in Progress
@@ -170,11 +175,13 @@ A button leads to the **Device Settings** screen.
 #### No Auto-reconnect
 
 <img src="docs/UI-screens/05d-auto_reconnect_disabled.jpg" width="10%" alt="Auto-reconnect — disabled" />
+
 *Automatic reconnect disabled; client remains disconnected and does not try to reconnect.*
 
 #### Sensor Settings
 
 <img src="docs/UI-screens/06-sensor_settings.jpg" width="10%" alt="Sensor — settings" />
+
 *Tapping a DS18B20 sensor tile navigates to its **Sensor Settings** screen, also accessible  
 from the Device Settings menu.*
 
@@ -191,19 +198,23 @@ Changes to name or offset are saved directly to the device.
 #### General Settings
 
 <img src="docs/UI-screens/06-general_settings.jpg" width="10%" alt="General Settings" />  
+
 *Configure device name, operation mode (AP, STA, or STA+AP), restart the device, or trigger an OTA firmware update.*
 
 #### Device Info
 
 <img src="docs/UI-screens/06-device_info.jpg" width="10%" alt="Device Info" />  
+
 *View device status: firmware version, uptime, memory usage, CPU load, and connection state.*
 
 #### Sensor Settings
 
 <img src="docs/UI-screens/06-sensor_settings.jpg" width="10%" alt="Sensor Settings" />
+
 *Configure individual temperature sensors: name, calibration offset, and ROM ID.*
 
 #### Distillation Configuration
 
 <img src="docs/UI-screens/06-distillation_config.jpg" width="10%" alt="Distillation Config" />
+
 *Set parameters for the distillation process, including operating modes, thresholds, and automation options.*
