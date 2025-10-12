@@ -170,7 +170,8 @@ A button leads to the **Device Settings** screen.
 #### Auto-reconnect in Progress
 
 <img src="docs/UI-screens/05c-auto_reconnect_in_progress.jpg" width="10%" alt="Auto-reconnect — in progress" />
-*Device remains offline; reconnection attempts continue at the configured interval.*
+
+Device remains offline; reconnection attempts continue at the configured interval.
 
 #### No Auto-reconnect
 
