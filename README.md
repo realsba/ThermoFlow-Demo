@@ -189,12 +189,12 @@ Changes to name or offset are saved directly to the device.
 
 #### General Settings
 
-[![General Settings](docs/UI-screens/06-general_settings.jpg){ width=10% }](docs/UI-screens/06-general_settings.jpg)  
+<img src="docs/UI-screens/06-general_settings.jpg" width="10%" alt="General Settings" />  
 *Configure device name, operation mode (AP, STA, or STA+AP), restart the device, or trigger an OTA firmware update.*
 
 #### Device Info
 
-[![Device Info](docs/UI-screens/06-device_info.jpg){ width=10% }](docs/UI-screens/06-device_info.jpg)  
+<img src="docs/UI-screens/06-device_info.jpg" width="10%" alt="Device Info" />  
 *View device status: firmware version, uptime, memory usage, CPU load, and connection state.*
 
 #### Sensor Settings
