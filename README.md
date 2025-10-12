@@ -121,8 +121,11 @@ so the app discovers devices reliably and displays them instantly.*
 
 ### 2. Device Discovery
 
-<img src="docs/UI-screens/02-discovery_searching.jpg" width="10%" alt="Discovery — searching" />
-<img src="docs/UI-screens/03-discovery_results.jpg" width="10%" alt="Discovery — results" />
+<p>
+  <img src="docs/UI-screens/02-discovery_searching.jpg" width="10%" alt="Discovery — searching" style="display:inline-block" />
+  <img src="docs/UI-screens/03-discovery_results.jpg" width="10%" alt="Discovery — results" style="display:inline-block" />
+</p>
+
 *The app scans the local network for ThermoFlow devices broadcasting via mDNS.  
 Discovered devices appear with their name and IP address, ready for instant pairing.*
 
