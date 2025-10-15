@@ -16,6 +16,9 @@ concurrent sessions. A cross-platform **Flutter client** provides real-time moni
 A **SIL framework** mirrors firmware behavior on Linux, enabling development and debugging without  
 physical hardware.
 
+Source repositories (private, access on request):
+- [ThermoFlow-Firmware](https://github.com/realsba/ThermoFlow-Firmware) — embedded C++ firmware
+- [ThermoFlow-App](https://github.com/realsba/ThermoFlow-App) — Flutter UI client
 
 ## Key Highlights
 
